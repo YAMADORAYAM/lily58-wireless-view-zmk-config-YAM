@@ -9,109 +9,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        f1_combo {
-            bindings = <&kp F1>;
-            key-positions = <51 1>;
-        };
-
-        f2_combo {
-            bindings = <&kp F2>;
-            key-positions = <51 2>;
-        };
-
-        f3_combo {
-            bindings = <&kp F3>;
-            key-positions = <51 3>;
-        };
-
-        f4_combo {
-            bindings = <&kp F4>;
-            key-positions = <51 4>;
-        };
-
-        f5_combo {
-            bindings = <&kp F5>;
-            key-positions = <51 5>;
-        };
-
-        f6_combo {
-            bindings = <&kp F6>;
-            key-positions = <51 6>;
-        };
-
-        f7_combo {
-            bindings = <&kp F7>;
-            key-positions = <51 7>;
-        };
-
-        f8_combo {
-            bindings = <&kp F8>;
-            key-positions = <51 8>;
-        };
-
-        f9_combo {
-            bindings = <&kp F9>;
-            key-positions = <51 9>;
-        };
-
-        f10_combo {
-            bindings = <&kp F10>;
-            key-positions = <51 10>;
-        };
-
-        f11_combo {
-            bindings = <&kp F11>;
-            key-positions = <51 11>;
-        };
-
-        f12_combo {
-            bindings = <&kp F12>;
-            key-positions = <51 0>;
-        };
-
-        arrow_up {
-            bindings = <&kp UP_ARROW>;
-            key-positions = <51 14>;
-        };
-
-        arrow_left {
-            bindings = <&kp LEFT_ARROW>;
-            key-positions = <51 25>;
-        };
-
-        arrow_down {
-            bindings = <&kp DOWN_ARROW>;
-            key-positions = <51 26>;
-        };
-
-        arrow_right {
-            bindings = <&kp RIGHT_ARROW>;
-            key-positions = <51 27>;
-        };
-
-        Hanja_combo {
-            bindings = <&kp LANG_HANJA>;
-            key-positions = <51 56>;
-        };
-
-        hypen-combo {
-            bindings = <&kp MINUS>;
-            key-positions = <51 42>;
-        };
-
-        equal_combo {
-            bindings = <&kp EQUAL>;
-            key-positions = <51 43>;
-        };
-
-        capslock_combo {
-            bindings = <&kp CLCK>;
-            key-positions = <51 24>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     behaviors {
         hold_fn: hold_fn {
@@ -121,6 +19,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
+            hold-while-undecided;
         };
     };
 
