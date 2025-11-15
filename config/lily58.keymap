@@ -120,7 +120,6 @@
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
-            hold-trigger-key-positions = <51>;
             tapping-term-ms = <200>;
         };
     };
@@ -203,8 +202,6 @@
 &kp LCTRL     &kp Z           &kp X           &kp C            &kp V    &kp B         &kp MINUS    &kp EQUAL  &kp N      &kp M             &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
                                               &kp LEFT_WIN     &kp F24  &kp LEFT_ALT  &kp SPACE    &kp SPACE  &kp ENTER  &kp LANG_HANGEUL  &kp DEL
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
