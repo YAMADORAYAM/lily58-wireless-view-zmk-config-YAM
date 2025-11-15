@@ -127,7 +127,7 @@
 &trans        &trans          &kp UP_ARROW    &trans           &trans  &trans                          &trans  &trans          &trans  &trans  &trans   &trans
 &kp CAPSLOCK  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans                          &trans  &trans          &trans  &trans  &trans   &trans
 &trans        &trans          &trans          &trans           &trans  &trans  &kp MINUS    &kp EQUAL  &trans  &trans          &trans  &trans  &trans   &trans
-                                              &screenshot      &trans  &trans  &kp HOME     &kp END    &trans  &kp LANG_HANJA  &trans
+                                              &kp RG(LS(S))    &trans  &trans  &kp HOME     &kp END    &trans  &kp LANG_HANJA  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
