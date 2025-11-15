@@ -15,9 +15,11 @@
         hold_fn: hold_fn {
             compatible = "zmk,behavior-hold-tap";
             label = "HOLD_FN";
-            bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
+            bindings = <&mo>, <&kp>;
+
+
             tapping-term-ms = <250>;
             flavor = "balanced";
         };
