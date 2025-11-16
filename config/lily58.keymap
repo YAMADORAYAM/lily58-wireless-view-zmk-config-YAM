@@ -27,7 +27,7 @@
             #binding-cells = <0>;
             bindings = <&kp KP_MINUS>, <&kp KP_PLUS>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <250>;
         };
 
         equal_underbar: equal_underbar {
@@ -36,7 +36,7 @@
             #binding-cells = <0>;
             bindings = <&kp KP_EQUAL>, <&kp UNDERSCORE>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <250>;
         };
     };
 
