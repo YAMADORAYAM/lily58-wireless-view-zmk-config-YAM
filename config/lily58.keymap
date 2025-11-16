@@ -35,7 +35,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "EQUAL_UNDERBAR";
             #binding-cells = <0>;
-            bindings = <&kp KP_EQUAL>, <&kp UNDERSCORE>;
+            bindings = <&kp EQUAL>, <&kp UNDERSCORE>;
 
             tapping-term-ms = <250>;
         };
